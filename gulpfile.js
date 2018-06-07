@@ -3,13 +3,13 @@ var sass = require("gulp-sass");
 
 //复制html
 gulp.task("copyhtml",function(){
-	gulp.src("*.html").pipe(gulp.dest("F:\\php\\WWW\\1802"));
+	gulp.src("*.html").pipe(gulp.dest("D:\\PHP\\WWW\\tiandouyun"));
 	
 });
 
 //复制图片
 gulp.task("copyimg",function(){
-	gulp.src("img/*.{jpg,png}").pipe(gulp.dest("F:\\php\\WWW\\1802\\img"));
+	gulp.src("img/*.{jpg,png}").pipe(gulp.dest("D:\\PHP\\WWW\\tiandouyun\\img"));
 	
 	
 });
@@ -20,7 +20,7 @@ gulp.task("copyimg",function(){
 gulp.task("scssfile",function(){
 	gulp.src("scss/*.scss")
 	.pipe(sass())
-	.pipe(gulp.dest("F:\\php\\WWW\\1802\\css"));
+	.pipe(gulp.dest("D:\\PHP\\WWW\\tiandouyun\\css"));
 });
 
 //监听
