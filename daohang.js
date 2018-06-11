@@ -3,18 +3,9 @@ let bot3 =document.getElementById('bot3');
 let bot321 =document.getElementById('bot321');
 let fa =document.getElementById('fa');
 let bot4 =document.getElementById('bot4');
-// let acc_ba=document.getElementById('acc_ba')
-// let acc_c=document.getElementById('acc_c')
 
-acc_ba.onmouseenter = function(){
-	acc_c.style.display = "block";
-}
-acc_ba.onmouseleave = function(){
-	acc_c.style.display = "none";
-}
-acc_c.onmouseenter = function(){
-	acc_c.style.display = "block";
-}
+
+
 ycp.onmouseenter = function(){
 	bot3.style.display = "block";
 }

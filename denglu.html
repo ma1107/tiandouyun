@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" type="text/css" href="css/denglu.css" />
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+	<title>登录页面</title>
+</head>
+<body>
+	<div id="login">
+		<div id="login_a">
+			<img src="img/2.png" width="133px" height="48px"/>
+		</div>
+		<div id="login_b">
+			<h2>用户名</h2>
+			<form>
+				<input type="text" id="login_ba" placeholder="手机号 / 已认证邮箱"/><span id="phoneMsg"></span><span ><img id="login_ba_a" src="img/29.png" /></span>
+				<input type="password" id="login_bb" placeholder="登录密码"/><span id="passwordMsg"></span><span><img  id="login_bb_a" src="img/30.png"/></span>
+				<div id="login_bc">
+					<input type="checkbox" />
+						<span>记住登录名</span>
+					<a id="login_bc_d" href="#">忘记密码？</a>
+				</div>
+				<input type="submit" value="登 录" id="login_bd"/>
+			</foem>
+			<div id="login_c">
+				<span>没有账号？您可免费注册</span><a href="#">免费注册</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+	function $ (id){
+		return document.getElementById(id);
+	}
+
+
+	$("login_ba").onblur = function(){
+		$("phoneMsg").innerHTML="";
+		var reg = /^1[^0126]\d{9}$/;
+		if(reg.test(this.value)==false){
+			$("phoneMsg").innerHTML = "您输入的账号有误";
+		// }else{
+		// 	$("phoneMsg").innerHTML =;
+		// }
+	}
+}
+	$("login_bb").onblur = function(){
+		$("passwordMsg").innerHTML="";
+		var reg = /^[a-zA-Z_]\w{5,15}$/;
+		if(reg.test(this.value)==false){
+			$("passwordMsg").innerHTML = "您输入的密码有误";
+		// }else{
+		// 	$("passwordMsg").innerHTML = ;
+		// }
+	}
+}
+</script>

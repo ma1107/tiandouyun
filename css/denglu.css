@@ -1,0 +1,186 @@
+body {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+html, body, p, h1, h2, h3, h4, h5, h6, table, tr, td, th, ol, ul, li, dl, dd, dt, label, input, fieldset, hr, form {
+  margin: 0;
+  padding: 0;
+}
+
+#login {
+  width: 100%;
+  height: 736px;
+  background: url(../img/16.jpg) no-repeat 0 0;
+  border-bottom: 1px solid #eee;
+}
+
+#login_a img {
+  margin: 0 auto;
+  display: block;
+  padding-top: 39px;
+}
+
+#login_b {
+  width: 480px;
+  height: 470px;
+  background: #f0eded;
+  margin: 0 auto;
+  display: block;
+  margin-top: 36px;
+}
+
+form {
+  position: relative;
+}
+
+#login_b h2 {
+  padding: 35px 0;
+  font-weight: 400;
+  font-size: 24px;
+  color: #0080ff;
+  text-align: center;
+}
+
+#login_ba {
+  width: 330px;
+  margin: 0 60px;
+  padding-right: 30px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #333;
+  text-indent: 18px;
+  border: 1px solid #ddd;
+}
+
+#phoneMsg {
+  font-size: 14px;
+  color: red;
+  position: absolute;
+  top: 42px;
+  left: 67px;
+}
+
+#login_ba_a {
+  position: absolute;
+  top: 10px;
+  left: 390px;
+}
+
+#passwordMsg {
+  font-size: 14px;
+  color: red;
+  position: absolute;
+  top: 109px;
+  left: 70px;
+}
+
+#login_bb {
+  width: 330px;
+  margin: 0 60px;
+  padding-right: 30px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #333;
+  text-indent: 18px;
+  border: 1px solid #ddd;
+  margin-top: 22px;
+}
+
+#login_bb_a {
+  position: absolute;
+  top: 75px;
+  left: 390px;
+}
+
+#login_bc {
+  position: relative;
+  margin-top: 20px;
+}
+
+input[type="checkbox"] {
+  margin-left: 64px;
+}
+
+#login_bc span {
+  line-height: 16px;
+  color: #666;
+  font-size: 14px;
+  position: relative;
+}
+
+#login_bc_b {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #c2c1c1;
+  float: left;
+  margin-left: 64px;
+  margin-top: 3px;
+}
+
+#log_bc_e {
+  width: 16px;
+  height: 16px;
+  background: url(../img/33.png) no-repeat 0 0;
+  position: absolute;
+  top: 2px;
+  left: -17px;
+}
+
+#login_bc_d {
+  float: right;
+  color: #0080ff;
+  font-size: 14px;
+  text-decoration: none;
+  margin-right: 56px;
+}
+
+#login_bd {
+  width: 360px;
+  height: 40px;
+  margin: 30px 60px;
+  line-height: 40px;
+  border-radius: 3px;
+  font-size: 18px;
+  background-color: #0080ff;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#login_c {
+  width: 360px;
+  margin: 0 auto;
+  padding-top: 25px;
+  font-size: 14px;
+  color: #666;
+  border-top: 1px solid #ddd;
+}
+
+#login_c span {
+  width: 360px;
+  margin: 0 auto;
+  padding-top: 25px;
+  font-size: 14px;
+  color: #666;
+}
+
+#login_c a {
+  float: right;
+  padding: 5px 10px;
+  color: #0080ff;
+  border: 1px solid #0080ff;
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=denglu.css.map */
