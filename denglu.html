@@ -30,6 +30,10 @@
 			</div>
 		</div>
 	</div>
+	<div id="login_d">
+		<p>Copyright © 2014-2017 Tianduyun.com. All Rights Reserved. 天都 版权所有　天都网络科技有限公司　<a href="#">鲁ICP备16044791号</a></p>
+
+	</div>
 </body>
 </html>
 <script type="text/javascript">
@@ -43,9 +47,10 @@
 		var reg = /^1[^0126]\d{9}$/;
 		if(reg.test(this.value)==false){
 			$("phoneMsg").innerHTML = "您输入的账号有误";
-		// }else{
-		// 	$("phoneMsg").innerHTML =;
-		// }
+		}else{
+			$("phoneMsg").innerHTML ="√";
+			$("phoneMsg").style.color="#15fb25";
+		}
 	}
 }
 	$("login_bb").onblur = function(){
@@ -53,9 +58,10 @@
 		var reg = /^[a-zA-Z_]\w{5,15}$/;
 		if(reg.test(this.value)==false){
 			$("passwordMsg").innerHTML = "您输入的密码有误";
-		// }else{
-		// 	$("passwordMsg").innerHTML = ;
-		// }
+		}else{
+			$("passwordMsg").innerHTML = "√";
+			$("passwordMsg").style.color="#15fb25";
+		}
 	}
 }
 </script>
