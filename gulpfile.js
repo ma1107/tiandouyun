@@ -3,24 +3,29 @@ var sass = require("gulp-sass");
 
 //复制html
 gulp.task("copyhtml",function(){
-	gulp.src("*.html").pipe(gulp.dest("F:\\php\\WWW\\1802"));
+	gulp.src("./*.html").pipe(gulp.dest("D:\\phpStudy\\WWW\\1802"));
 	
 });
 
 //复制图片
 gulp.task("copyimg",function(){
-	gulp.src("img/*.{jpg,png}").pipe(gulp.dest("F:\\php\\WWW\\1802\\img"));
+	gulp.src("img/*.{jpg,png}").pipe(gulp.dest("D:\\phpStudy\\WWW\\1802\\img"));
 	
 	
 });
-
+//复制js
+gulp.task("copyjs",function(){
+	gulp.src("img/*.{jpg,png}").pipe(gulp.dest("D:\\phpStudy\\WWW\\1802\\img"));
+	
+	
+});
 
 
 //sass编译
 gulp.task("scssfile",function(){
 	gulp.src("scss/*.scss")
 	.pipe(sass())
-	.pipe(gulp.dest("F:\\php\\WWW\\1802\\css"));
+	.pipe(gulp.dest("D:\\phpStudy\\WWW\\18022\\css"));
 });
 
 //监听

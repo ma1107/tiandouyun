@@ -19,7 +19,7 @@
 								<span>已经拥有了账户<a href="#">账号登录</a></span>
 							</div>
 							<div id="reg_b_b">
-								<form>
+								<form method="post" action="reg.php">
 									<p>手机号码<span id="reg_b_ba_a">*</span><input type="text" id="reg_b_ba" placeholder="请输入手机号码" autofocus/><span id="reg_b_baMsg"></span></p>
 									<p>短信验证码<span id="reg_b_bd">*</span><input type="text" id="reg_b_bb" placeholder="请输入短信验证码" autofocus/><span id="reg_b_bbMsg"></span><input type="button" id="reg_b_bc" value="发送短信验证"></p>
 									<p>设置密码<span id="reg_b_bc_a">*</span><input type="password" id="reg_b_ca" placeholder="请输入密码" autofocus/><span id="reg_b_caMsg"></span></p>
@@ -42,6 +42,7 @@
 			</div>
 	</body>
 </html>
+<script type="text/javascript" src="js/cookie.js"></script>
 <script type="text/javascript">
 	function $(id){
 		return document.getElementById(id);
