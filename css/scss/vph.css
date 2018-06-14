@@ -1,0 +1,309 @@
+@charset "UTF-8";
+/* CSS Document */
+body, div, p, ul, ol, li, dl, dt, dd, form, table, tr, td, h1, h2, h3, h4, h5, h6, fieldset, input, textarea, figure {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "微软雅黑",Arial;
+  background: #f7f7f8;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  border: none;
+  display: block;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  font-size: 26.67vw;
+}
+
+/*harder*/
+#header_a {
+  position: relative;
+}
+
+#header_a img {
+  width: 3.75rem;
+  height: 0.65rem;
+}
+
+#header_a h5 {
+  position: absolute;
+  top: 0.13rem;
+  left: 1.06rem;
+  font-size: 0.17rem;
+  color: #fff;
+  font-weight: 100;
+}
+
+#header_a p {
+  position: absolute;
+  top: 0.34rem;
+  left: 1.1rem;
+  font-size: 0.13rem;
+  color: #fff;
+  text-align: center;
+}
+
+#header_ba_a {
+  font-size: 0.15rem;
+  color: #45474d;
+  float: left;
+  margin-top: 0.14rem;
+  padding-left: 0.1rem;
+}
+
+#header_ba input {
+  width: 2.7rem;
+  height: 0.3rem;
+  border-radius: 0.15rem;
+  float: left;
+  font-size: 0.15rem;
+  color: #98989f;
+  margin-top: 0.08rem;
+  margin-left: 0.07rem;
+  outline: none;
+  border: 1px solid #898990;
+}
+
+#header_ba_b {
+  width: 0.11rem;
+  height: 0.11rem;
+  float: left;
+  margin-top: 0.13rem;
+  margin-left: 0.18rem;
+}
+
+#header_bb p {
+  font-size: 0.125rem;
+  color: #585c64;
+  float: left;
+  margin: 0 0.115rem 0 0.115rem;
+  line-height: 0.4rem;
+}
+#header_bb img {
+  float: left;
+  margin-top: 0.15rem;
+}
+#header_bb #header_bb_a {
+  color: #d34ba8;
+  border-bottom: 2px solid #d34ba8;
+}
+
+#gundongtiao {
+  overflow: auto;
+}
+
+#lunbotu {
+  width: 3.75rem;
+  height: 1.5rem;
+}
+
+#box {
+  position: relative;
+}
+#box img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3.75rem;
+  height: 1.5rem;
+}
+#box ul {
+  position: absolute;
+  right: 0.1rem;
+  bottom: -1.6rem;
+  height: 0.2rem;
+  list-style: none;
+}
+#box ul li {
+  float: left;
+  margin-left: 0.05rem;
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+#temai {
+  padding-top: 0.09rem;
+}
+#temai p {
+  font-size: 0.15rem;
+  color: #000;
+  text-align: center;
+}
+
+#duanwujie_a img {
+  width: 3.75rem;
+  height: 1.5rem;
+}
+#duanwujie_a p {
+  font-size: 0.15rem;
+  color: #000;
+  margin-left: 0.17rem;
+  line-height: 0.28rem;
+}
+
+#duanwujie_b {
+  margin-top: 0.1rem;
+}
+#duanwujie_b img {
+  width: 3.75rem;
+  height: 1.5rem;
+}
+#duanwujie_b p {
+  font-size: 0.15rem;
+  color: #000;
+  margin-left: 0.17rem;
+  line-height: 0.28rem;
+}
+
+#img img {
+  width: 3.75rem;
+  height: 2.4rem;
+}
+
+#welfare {
+  width: 3.75rem;
+  height: 3.8rem;
+  background: #baf1b1;
+}
+#welfare h2 {
+  font-size: 0.17rem;
+  color: #16560d;
+  text-align: center;
+  padding-top: 0.1rem;
+}
+#welfare p {
+  margin: 0 auto;
+  width: 2rem;
+  height: 0.22rem;
+  border-radius: 0.1rem;
+  background: #16560d;
+  font-size: 0.02rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.22rem;
+  margin-top: 7px;
+  margin-bottom: 0.07rem;
+}
+#welfare img {
+  width: 1.74rem;
+  height: 1.8rem;
+  margin-left: 0.08rem;
+  float: left;
+}
+#welfare #welfare_a img {
+  width: 1.79rem;
+  height: 0.9rem;
+  margin-bottom: 3px;
+  border-radius: 15px;
+}
+#welfare #welfare_b img {
+  width: 1.74rem;
+  height: 1.15rem;
+}
+#welfare #welfare_c {
+  width: 3.75rem;
+  height: 0.04rem;
+  background: #fff;
+  margin-top: 3.12rem;
+}
+#welfare #welfare_d img {
+  width: 3.75rem;
+  height: 0.48rem;
+  margin-top: 4px;
+}
+#welfare #welfare_d #welfare_da img {
+  width: 1.74rem;
+  height: 1.17rem;
+}
+#welfare #welfare_da_a img {
+  width: 3.75rem;
+  height: 2.18rem;
+}
+
+#choose #choose_a {
+  float: left;
+}
+#choose #choose_a #choose_aa {
+  width: 3.75rem;
+  height: 0.48rem;
+}
+#choose #choose_a #choose_ab {
+  width: 1.82rem;
+  height: 2.34rem;
+  float: left;
+}
+#choose #choose_a #choose_ac {
+  width: 1.82rem;
+  height: 1.17rem;
+  float: left;
+}
+#choose #choose_a #choose_ad {
+  width: 1.82rem;
+  height: 1.17rem;
+  float: left;
+}
+#choose #choose_b {
+  float: left;
+}
+#choose #choose_b #choose_ba {
+  width: 3.75rem;
+  height: 0.48rem;
+}
+#choose #choose_b #choose_bb {
+  width: 3.75rem;
+  height: 1.8rem;
+  float: left;
+}
+#choose #choose_b #choose_bc {
+  width: 1.2rem;
+  height: 1.3rem;
+  float: left;
+}
+#choose #choose_b #choose_bd {
+  width: 1.2rem;
+  height: 1.3rem;
+  float: left;
+}
+#choose #choose_b #choose_be {
+  width: 1.2rem;
+  height: 1.3rem;
+  float: left;
+}
+
+#ret img {
+  position: fixed;
+  top: 5.8rem;
+  left: 3.1rem;
+  width: 0.3rem;
+  height: 0.3rem;
+}
+
+#shopping img {
+  position: fixed;
+  top: 5.8rem;
+  left: 0.4rem;
+  width: 0.3rem;
+  height: 0.3rem;
+}
+
+/*# sourceMappingURL=vph.css.map */
