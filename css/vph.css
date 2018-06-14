@@ -101,10 +101,6 @@ html {
   float: left;
   margin-top: 0.15rem;
 }
-#header_bb #header_bb_a {
-  color: #d34ba8;
-  border-bottom: 2px solid #d34ba8;
-}
 
 #gundongtiao {
   overflow: auto;
@@ -139,6 +135,36 @@ html {
   height: 0.1rem;
   border-radius: 50%;
   background-color: orange;
+}
+
+#header_bb_a:hover {
+  color: #d34ba8;
+  border-bottom: 2px solid #d34ba8;
+}
+
+#header_bb_b:hover {
+  color: #d34ba8;
+  border-bottom: 2px solid #d34ba8;
+}
+
+#header_bb_c:hover {
+  color: #d34ba8;
+  border-bottom: 2px solid #d34ba8;
+}
+
+#header_bb_d:hover {
+  color: #d34ba8;
+  border-bottom: 2px solid #d34ba8;
+}
+
+#header_bb_e:hover {
+  color: #d34ba8;
+  border-bottom: 2px solid #d34ba8;
+}
+
+#header_bb_f:hover {
+  color: #d34ba8;
+  border-bottom: 2px solid #d34ba8;
 }
 
 #temai {
